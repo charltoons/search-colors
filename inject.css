@@ -1,7 +1,19 @@
-.___found_color_active .rg_i {
-  display: none !important;
+/* Google Images */
+.rg_i {
+  opacity: 0.99;
+  will-change: opacity;
+  transition: opacity 300ms ease-in-out;
 }
 
+.rg_l {
+  overflow: hidden;
+}
+
+.___found_color_active .rg_i {
+  opacity: 0;
+}
+
+/* Pinterest */
 .___found_color_active .pinImageWrapper img {
   display: none !important;
 }
